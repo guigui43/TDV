@@ -70,6 +70,7 @@
     <Compile Include="Helper\CollapsibleLogEntry.cs" />
     <Compile Include="Helper\IContext.cs" />
     <Compile Include="Helper\LogEntry.cs" />
+    <Compile Include="ViewModel\LogViewerVM.cs" />
     <Compile Include="View\LogViewer.xaml.cs">
       <DependentUpon>LogViewer.xaml</DependentUpon>
     </Compile>
@@ -136,9 +137,9 @@
       <Project>{e4297819-c012-4508-852f-cf771f3f1e0d}</Project>
       <Name>TDV.Office</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TDV.VLC\TDV.VLC.csproj">
+    <ProjectReference Include="..\TDV.VLC\TDV.Vlc.csproj">
       <Project>{e56655a5-2c61-42a7-8a7e-818dc50f16f0}</Project>
-      <Name>TDV.VLC</Name>
+      <Name>TDV.Vlc</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
