@@ -127,7 +127,7 @@ namespace TDV.ViewModel
 
             ReInitSettingsCommand = new DelegateCommand<string>(ExecuteReInit);
 
-            LogMessageEvent.Instance.Subscribe(ProcessLog);
+            LogMessageEvent.Instance.Subscribe(WriteLog);
         }
 
         public MainWindowVM(Dispatcher dispatcher)
