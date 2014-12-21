@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDV", "TDV\TDV.csproj", "{1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDV.Vlc.DotNet", "TDV.Vlc.DotNet\TDV.Vlc.DotNet.csproj", "{12D78D18-E867-4BA3-9D66-4A75EFA4C5F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDV.Player", "TDV.Player\TDV.Player.csproj", "{B9EF3176-F442-4BDE-9D9B-F98B8AF54324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{12D78D18-E867-4BA3-9D66-4A75EFA4C5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D78D18-E867-4BA3-9D66-4A75EFA4C5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D78D18-E867-4BA3-9D66-4A75EFA4C5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EF3176-F442-4BDE-9D9B-F98B8AF54324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EF3176-F442-4BDE-9D9B-F98B8AF54324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EF3176-F442-4BDE-9D9B-F98B8AF54324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EF3176-F442-4BDE-9D9B-F98B8AF54324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

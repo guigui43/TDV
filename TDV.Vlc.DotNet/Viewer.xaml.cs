@@ -2,6 +2,7 @@
 using System.IO;
 using System.Reflection;
 using System.Windows;
+
 using Vlc.DotNet.Forms;
 
 namespace TDV.Vlc.DotNet
